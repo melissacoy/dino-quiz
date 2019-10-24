@@ -195,8 +195,3 @@ footer {
     background-size: contain;
 }
 
-@media screen and (min-width: 400px) {
-    .heading {
-   background-size: auto; 
-    }
-
