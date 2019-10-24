@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple quiz app about dinosaurs">
+    <title>Dino Quiz App</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header role="heading" class="heading">
+        <h1>Dino Quiz App</h1>
+        <p> hold on to your butts!</p>
+    </header>
+    <section role="banner" class="banner">  
+        <ul>
+            <li>Question: <span class="questionNumber">0</span> of 10</li>
+            <li>Score: <span class="score">0</span> of 10</li>
+        </ul>
+           
+    </section>
+    <main role="main" id="quiz-body">
+    <div class="start-quiz">
+      <br><p class="derbyCore">  How much do you know about dinosaurs? 
+        </br>Click the "Start" button to start the quiz and find out!</p>
+    
+    
+      <button type="button" class="start-button">Start</button>
+    </div>
+    
+    <div class="questionAnswerForm"></div>
+    </main>
+
+ 
+<footer>MCP 2019</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js"        
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
+<script src="datastore.js"></script>
+<script src="index.js"></script>
+  </body>
+</html>
