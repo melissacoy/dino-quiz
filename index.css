@@ -196,5 +196,6 @@ footer {
 }
 @media screen and (min-width: 500px) {
     .heading {
-   background-size: contain; 
+   background-size: contain;
+   width: 70%;
     }
