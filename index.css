@@ -44,7 +44,7 @@ ul li{
     margin: 20px;
 }
 .questionNumber, .score {
-    font-size: 16px;
+    font-size: 14px;
 }
 button {
     box-shadow:inset 0px 1px 0px 0px #ffffff;
