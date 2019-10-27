@@ -99,7 +99,7 @@ button:active {
     padding-right: 5px;
   }
   
-h1, h2, p, span {
+h1, h2, p {
   font-size: 30px;
 }
 .start-button, .submitQuestion {
